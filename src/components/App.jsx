@@ -1,5 +1,11 @@
-import { RoomPlanner } from "./grid"
+import { HowItWorks } from "./howItWorksSection"
+import { Hero } from "./heroSection"
 
 export const App = () => {
-  return <RoomPlanner/>
+  return <>
+  <Hero/>
+  <HowItWorks></HowItWorks>
+  </>
+  
+  
 }
